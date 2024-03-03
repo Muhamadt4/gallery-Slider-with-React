@@ -36,7 +36,7 @@ export default function ImageSlider() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center w-full">
+    <div className="flex flex-col items-center w-full h-[70%]">
       <Images
         imageIndex={imageIndex}
         prevImage={prevImage}

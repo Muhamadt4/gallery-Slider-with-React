@@ -4,7 +4,10 @@ import { IMAGES } from "./ImageSlider";
 
 export default function Dots({ imageIndex, setImageIndex }) {
   return (
-    <div>
+    <div className="">
+      <h2 className="text-3xl text-white flex justify-center">
+        {imageIndex + 1}
+      </h2>
       {IMAGES.map((_, index) => (
         <button
           key={index}
